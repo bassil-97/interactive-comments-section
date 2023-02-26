@@ -1,0 +1,48 @@
+.add-new-comment__container {
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.add-new-comment__container img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+
+.add-new-comment__container button {
+    background: var(--options-color);
+    color: white;
+    padding: .65rem 1.5rem;
+}
+
+.add-new-comment__container button:disabled {
+    background: var(--options-color);
+    color: white;
+    opacity: .7;
+}
+
+.add-new-comment__container textarea {
+    padding: .75rem 1.5rem;
+    border: 1px solid rgb(233, 230, 230);
+    border-radius: 8px;
+}
+
+.add-new-comment__container textarea:focus {
+    outline: 1px solid var(--options-color);
+}
+
+.close-replay-box__btn {
+    position: absolute !important;
+    top: 6px;
+    left: 0px;
+    background: transparent !important;
+    color: var(--options-color) !important;
+}

@@ -1,0 +1,15 @@
+.comment-replays__list {
+    width: 100%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.comment-replays__list::before {
+    position: absolute;
+    left: 66px;
+    width: 3px;
+    height: 95%;
+    background-color: #e9eaec;
+    content: "";
+    display: inline-block;
+}
